@@ -1,7 +1,7 @@
 /* Main */
 body {
 	font-size: 14px;
-	background-color: #f3f6f9;
+    background: linear-gradient(to right, #b7c5e1, #aadedd);
 }
 a {
     color: #666;
@@ -16,19 +16,27 @@ a {
 }
 
 /* Navigation Bar */
-.navbar-default {
-    background: linear-gradient(to right, #691551, #af3d8f);
+.navbar {
+    background: linear-gradient(to right, #b7c5e1, #aadedd);
     border: none;
 }
-.navbar-default .navbar-nav>li>a{
+.navbar .navbar-nav>li>a{
 	color:#fff;
 }
-.navbar-default .navbar-nav>li>a:hover{
+.navbar .navbar-nav>li>a:hover{
 	color:#ddd;
 }
-.navbar-default .navbar-brand:hover {
+.navbar .navbar-brand:hover {
 	color:#ddd;
 }
+
+
+
+
+
+
+
+
 
 /* Widgets */
 .widget {
@@ -52,10 +60,11 @@ a {
 }
 .desk-container .desk-sidebar .sidebar-item.selected, .desk-container .desk-sidebar .sidebar-item:hover {
     color: white;
-    background: linear-gradient(to right, #691551, #bf5ea4bf);
+    background: linear-gradient(to right, #b7c5e1, #aadedd);
 }
 .layout-side-section {
     font-size: 14px;
+    background: linear-gradient(to right, #b7c5e1, #aadedd);
 }
 .uppercase {
     color:#a5488a;
@@ -81,8 +90,62 @@ a {
 /*Main Section */
 .layout-main-section {
     border: 1px solid #e4e4e4;
-    background-color: white;
+    background: linear-gradient(to right, #b7c5e1, #aadedd);
 }
+
+.layout-main-section-wrapper {   
+    background: linear-gradient(to right, #b7c5e1, #aadedd);
+}
+
+.form-section{
+    background: linear-gradient(to right, #b7c5e1, #aadedd);
+}
+
+.page-head{
+    background: linear-gradient(to right, #b7c5e1, #aadedd); 
+}
+
+.page-container{
+    background: linear-gradient(to right, #b7c5e1, #aadedd); 
+}
+
+.widget.spacer{
+    background: linear-gradient(to right, #b7c5e1, #aadedd); 
+}
+
+.page-form{
+    background: linear-gradient(to right, #b7c5e1, #aadedd); 
+}
+
+.form-grid, 
+.rows, 
+.grid-row, 
+.comment-box, 
+.grid-footer
+.dropdown-menu
+.dropdown-menu-right
+.onboarding-widget-box
+{
+    background: linear-gradient(to right, #b7c5e1, #aadedd); 
+}
+.dropdown-item{
+    background: linear-gradient(to right, #b7c5e1, #aadedd)  !important
+}
+
+.widget {
+    background: linear-gradient(to right, #86b1ee, #79aaee); 
+}
+
+
+
+
+
+
+
+
+
+
+
 .list-row-head {
     background-color: #f3f6f9;
     border-bottom: 1px solid #e4e4e4 !important;
@@ -108,3 +171,6 @@ a {
 input[type=checkbox]:checked:before {
     color: #ae3c8e;
 }
+
+
+
