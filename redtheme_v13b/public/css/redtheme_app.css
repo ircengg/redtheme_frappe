@@ -17,8 +17,8 @@ a {
 
 /* Navigation Bar */
 .navbar {
-    background: linear-gradient(to right, #b7c5e1, #aadedd);
-    border: none;
+    background: #666666; 
+   
 }
 .navbar .navbar-nav>li>a{
 	color:#fff;
